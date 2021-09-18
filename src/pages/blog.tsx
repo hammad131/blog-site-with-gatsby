@@ -50,6 +50,7 @@ const Blog = () => {
               </div>
               {edge.node.featuredImage && (
                 <Img
+                  style={{width:`350px`, height:`200px`, marginLeft:`280px`}}
                   className="featured"
                   fluid={edge.node.featuredImage.fluid}
                   alt={edge.node.title}
